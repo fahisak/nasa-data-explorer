@@ -1,26 +1,20 @@
-
 {
-  "name": "backend",
+  "name": "nasa-data-explorer-backend",
   "version": "1.0.0",
+  "description": "Backend for NASA Data Explorer Project",
   "main": "index.js",
   "scripts": {
-    "test": "jest"  
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "aws-sdk": "^2.1691.0",
-    "axios": "^1.7.7",
-    "body-parser": "^1.20.3",
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
-    "express": "^4.21.0",
-    "winston": "^3.14.2"
+    "axios": "^1.4.0", 
+    "dotenv": "^16.0.3", 
+    "express": "^4.18.2",
+    "winston": "^3.8.2"
   },
-  "devDependencies": {
-    "jest": "^29.7.0",
-    "supertest": "^7.0.0"
-  }
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "author": "Fahisa",
+  "license": "ISC"
 }
