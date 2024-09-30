@@ -16,5 +16,5 @@ app.use(express.json());
 app.use('/api/nasa', nasaRoutes);
 
 app.listen(PORT, () => {
-  logger.info(`Server is running on http://localhost:${PORT}`)
+  logger.info(`Server is running on port :${PORT}`)
 });
